@@ -16,12 +16,10 @@ public class ValidAnagram242 {
         int[] charCount = new int[26];
         for (int i = 0; i < s.length() ; i++) {
             charCount[s.charAt(i) - 'a'] += 1;
-        }
-        for (int i = 0; i < t.length(); i++) {
             charCount[t.charAt(i) - 'a'] -= 1;
         }
-        for (int i = 0; i < charCount.length ; i++) {
-            if (charCount[i] != 0) {
+        for (int count : charCount) {
+            if (count != 0) {
                 return false;
             }
         }
