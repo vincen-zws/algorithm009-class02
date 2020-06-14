@@ -1,4 +1,4 @@
-package NQueens51;
+package nQueens51;
 
 import java.util.List;
 import java.util.ArrayList;
