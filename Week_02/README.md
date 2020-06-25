@@ -1,4 +1,8 @@
-# Week2
+[哈希表、映射、集合](https://u.geekbang.org/lesson/14?article=238676)
+
+[树、二叉树、二叉搜索树](https://u.geekbang.org/lesson/14?article=239009)
+
+[堆和二叉堆、图](https://u.geekbang.org/lesson/14?article=239044)
 
 ## 一. 知识点
 
@@ -38,7 +42,7 @@
 
     插入尾部，上浮；删除，换尾，下沉
 
-   在java priorityQueue中实现，BinaryHeap
+   在java priorityQueue中实现，默认最小堆，可通过实例对象时传入Comparator改变比较方式从而实现最大堆
 
 状态表示：状态转移，边界情况；
 
@@ -68,11 +72,11 @@ LRU
 
 合并两个有序的链表
 
-#### [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
+##### [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
 
 需要注意栈为空的情况，另外压入左括号还是右括号都可以
 
-#### [155. 最小栈](https://leetcode-cn.com/problems/min-stack/)
+##### [155. 最小栈](https://leetcode-cn.com/problems/min-stack/)
 
 看题解：
 
@@ -83,13 +87,13 @@ LRU
 
 ### 2020.5.29
 
-#### [239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
+##### [239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
 
 * 
 
 ### 2020.5.30
 
-#### [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)
+##### [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)
 
 * 排序比较：先将两个字符串按照字母排序，再用equals比较是否相等。nlogn ：1
 
@@ -156,8 +160,30 @@ LRU
 
 丑数 = 丑数 * 2/3/5
 
+预先存下来
+
+## 三. 源码分析
+
+##### HashMap
+
+## 四. 日程
 
 
 
+<center>Week2</center>
 
-## HashMap
+| 题目                                                         | first (plan / done) | second (plan / done) | third(plan / done) | fourth(plan / done) | fifth (plan / done) | 备注           |
+| ------------------------------------------------------------ | ------------------- | -------------------- | ------------------ | ------------------- | ------------------- | -------------- |
+| [Week2](#Week2)                                              | Lesson5             |                      |                    |                     |                     |                |
+| [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) |                     |                      |                    |                     |                     | [实战&习题](#) |
+| [49. 字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) |                     |                      |                    |                     |                     | [实战&习题](#) |
+| [Week2](#Week2)                                              | Lesson6             |                      |                    |                     |                     |                |
+| [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) |                     |                      |                    |                     |                     | [实战&习题](#) |
+| [144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) |                     |                      |                    |                     |                     | [实战&习题](#) |
+| [590. N叉树的后序遍历](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/) |                     |                      |                    |                     |                     | [实战](#)      |
+| [589. N叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/) |                     |                      |                    |                     |                     | [实战&习题](#) |
+| [429. N叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/) |                     |                      |                    |                     |                     | [实战&习题](#) |
+| [Week2](#Week2)                                              | Lesson6+            |                      |                    |                     |                     |                |
+| [面试题40. 最小的k个数](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/) |                     |                      |                    |                     |                     | [实战](#)      |
+| [347. 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) |                     |                      |                    |                     |                     | [习题](#)      |
+| [面试题49. 丑数](https://leetcode-cn.com/problems/chou-shu-lcof/) |                     |                      |                    |                     |                     | [习题](#)      |
